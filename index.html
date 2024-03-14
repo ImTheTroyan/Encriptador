@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Encriptador by Yesid</title>
+    
+<!-- ENCABEZADO --> 
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/Logodark.png" alt="Logo">
+    </header>
+<!-- PRICIPAL-->     
+    <main>
+        <section class="seccion-uno">
+            <div class="seccionDeTexto">
+                <textarea class="cajaDeTexto" placeholder="Ingrese el texto aqui"></textarea>
+            </div>
+            <div class="advertencia">
+                <img src="img/Alert.png" alt="advertencia" class="img-advertencia">
+                <p class="textoAdvertencia">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="seccionDeBotones">
+                <button type="submit" class="botonEncriptar">Encriptar</button>
+                <button type="submit" class="botonDesencriptar">Desencriptar</button>
+
+            </div>
+        </section>
+        <section class="seccionTextoDesencriptado">
+            <div class="seccionDeImagen">
+                <img src="img/Muñecov.png" alt="Muñeco">
+            </div>
+            <div class="seccionMensaje">
+                <h2>Ningún mensaje fue encontrado</h2>
+                <p>Ingresa el texto que quieres encriptar o desencriptar.</p>
+            </div>
+            <div class="seccionCopiar">
+                <input type="boton" class="botonCopiar" value="Copiar">
+            </div>
+            <div class="seccionTextoConvertido">
+                <p class="textoConvertido"></p>
+            </div>
+        </section>
+    </main>
+
+    <!-- PIE DE PAGINA -->
+    <footer>
+        <p class ="pieDePagina">Desarrollado por Yesid Contreras</p>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
